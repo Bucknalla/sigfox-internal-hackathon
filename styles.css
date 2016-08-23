@@ -111,6 +111,9 @@ h6 {
   width: 140px;
 }
 
+.sigfox-text-sub{
+  opacity: 0.53;
+}
 
 .sigfox-header {
   overflow: visible;
@@ -359,6 +362,11 @@ h6 {
   text-align: center;
 }
 
+.background {
+  background-image: url("images/office.jpg");
+  background-size: 100%;
+}
+
 .sigfox-customized-section-text {
   max-width: 500px;
   margin-left: auto;
@@ -469,11 +477,24 @@ h6 {
     display: none;
   }
 
-  .mobile-hide{ visibility: hidden; }
-
+  .mobile-hide{
+    visibility: hidden;
+  }
 
   .sigfox-title {
     display: none !important;
+  }
+
+  .sigfox-clock-container{
+    /*overflow: auto;*/
+    white-space: nowrap;
+    /*-webkit-transform: scale(0.8, 0.8);*/
+    min-width: 10vw;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .sigfox-clock{
+    display:inline;
   }
 
   .sigfox-mobile-title {
@@ -518,19 +539,6 @@ h6 {
     font-size: 16px;
     margin: 0 16px;
     padding-top: 8px;
-  }
-
-  .sigfox-create-character {
-    padding-top: 200px;
-    font-size: 16px;
-  }
-
-  .sigfox-create-character img {
-    height: 12px;
-  }
-
-  .sigfox-fab {
-    display: none;
   }
 
   .sigfox-footer .mdl-mega-footer--bottom-section {
