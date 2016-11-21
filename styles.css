@@ -16,6 +16,7 @@
 
 body {
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body.en :lang(fr) {
@@ -24,6 +25,7 @@ body.en :lang(fr) {
 body.fr :lang(en) {
   display: none;
 }
+
 
 /* Disable ugly boxes around images in IE10 */
 a img{
@@ -88,12 +90,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background-color: #6ab344;
+  background-color: #230066;
   color: #fff;
 }
 
 ::selection {
-  background-color: #6ab344;
+  background-color: #230066;
   color: #fff;
 }
 
@@ -120,23 +122,34 @@ h6 {
   color: black !important;
 }
 
+.text-block{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .sigfox-mobile-title {
   display: none !important;
 }
 
 
 .sigfox-logo-image {
-  height: 35px;
-  width: 140px;
+  height: 100px;
 }
 
 .sigfox-text-sub{
+  font-family: 'Ubuntu', sans-serif;
   opacity: 0.53;
+}
+
+.sigfox-text-purple{
+  font-family: 'Ubuntu', sans-serif;
+  opacity: 0.80;
+  color: #230066;
 }
 
 .sigfox-header {
   overflow: visible;
-  background: -webkit-linear-gradient(#059882 , #078471);
+  background: -webkit-linear-gradient(#230066 , #3a0d93);
 }
 
   .sigfox-header .material-icons {
@@ -199,7 +212,7 @@ h6 {
 }
 
     .sigfox-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid ##303F9F;
     }
 
   .sigfox-search-box {
@@ -233,12 +246,12 @@ h6 {
   }
 
   .sigfox-drawer span.mdl-navigation__link.mdl-navigation__link {
-    color: #8bc34a;
+    color: ##303F9F;
   }
 
   .sigfox-drawer .mdl-layout-title {
     position: relative;
-    background: #6ab344;
+    background: #230066;
     height: 160px;
   }
 
@@ -261,7 +274,7 @@ h6 {
 }
 
 .logo-font {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1;
   color: #767777;
   font-weight: 500;
@@ -289,10 +302,10 @@ h6 {
 }
 
 #clockdiv{
-	font-family: sans-serif;
-	color: #fff;
+  font-family: 'Ubuntu', sans-serif;
 	display: inline-block;
   width: 100%;
+  color: #f3f3f3;
 	font-weight: 100;
 	text-align: center;
 	font-size: 30px;
@@ -301,14 +314,14 @@ h6 {
 #clockdiv > div{
 	padding: 10px;
 	border-radius: 3px;
-	background: #059882;
+	background: #3b06a5;
 	display: inline-block;
 }
 
 #clockdiv div > span{
 	padding: 15px;
 	border-radius: 3px;
-	background: #00816A;
+	background: #260066;
 	display: inline-flex;
 }
 
@@ -377,11 +390,11 @@ h6 {
 
 .sigfox-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #00D1FE !important;
 }
 
   .sigfox-link:hover {
-    color: #7cb342 !important;
+    color: #784BFD !important;
   }
 
   .sigfox-link .material-icons {
@@ -487,7 +500,7 @@ h6 {
 }
 
   .sigfox-footer a:hover {
-    color: #8bc34a;
+    color: #784BFD;
   }
 
   .sigfox-footer .mdl-mega-footer--top-section::after {
